@@ -1,0 +1,205 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+}
+.login{
+	display: block;	
+	text-align: center;
+	margin-top: 60px;
+}
+.login form input{
+	height: 40px;
+	margin-top: 15px;
+	width: 250px;
+	border-radius: 7px 7px;
+	outline: none;
+	border: 2px solid #dadada;
+	text-align: center;
+}
+.login form input:focus{
+	 border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.login form input[type="submit"]{
+	width: 100px;
+	background-color:#0fbcf9;
+	color: white;
+	border:none;
+    border-radius:7px 7px;
+	margin-left: -50px; 
+}
+.login form input[type="submit"]:hover{
+	background-color: white;
+	color: #0fbcf9;
+	border:1px solid #0fbcf9;
+	transition: 1s;
+}
+.header {
+	position: -webkit-sticky;
+ 	position: sticky;
+ background-color: #9b59b6;
+ height: 50px;
+ line-height: 50px;
+ top: 0;
+ color: white;
+ width: 100%;
+}
+.header h2{
+	margin-left: 20px;
+	display:inline-block;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9b59b6;
+  color: white;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.footer a{
+	text-decoration: none;
+}
+.content{
+	margin: 30px 0px;
+}
+.content .input{
+	text-align: center;
+}
+.content input{
+	height: 40px;
+	border-radius: 5px 5px;
+	border: 2px solid #dadada;
+	outline: none;
+}
+.content input[type="text"]{
+	width: 500px;
+	padding-left: 20px;
+	font-size: 17px;
+}
+.content input[type="date"]{
+	text-align: center;
+}
+.content input[type="submit"]{
+	width: 45px;
+	background-color:#0fbcf9; 
+	color:white;
+	border: none;
+}
+.content  .title:focus{
+	 border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+.content input[type="submit"]:hover{
+	background: white;
+	color: #3498db;
+	border:1px solid #0fbcf9;
+	transition: 1s;
+}
+.content .title table{
+	margin: 0 auto;
+	text-align: center;
+	width: auto;
+	margin-top: 20px;
+	border-radius:5px 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.content .title table tr,th{
+	height: 40px;
+	width: 150px;
+}
+.content .title table tr td,th{
+	border-bottom: 1px solid #dadada;	
+}
+.content .title table tr td:first-child{
+	text-align: center;
+	width: 600px;
+}
+.content .title table tr th:first-child{
+	text-align: center;
+	width: 600px;
+}
+.content .title table tr td:last-child{
+	text-align: center;
+	width: 200px;
+}
+.content .title table tr th:last-child{
+	text-align: center;
+	width: 200px;
+}
+.content .title table tr td input{
+	width: 20px;
+}
+.content .title table tr td a{
+	text-decoration: none;
+	display: inline-block;
+	width: 55px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 5px 5px;
+	box-sizing: border-box;	
+
+}
+.content .title table tr td .edit{
+	background-color: #2ecc71;
+	color: white;
+	margin-right: 10px;
+}
+.content .title table tr td .delete{
+	color: white;
+	background-color: #e74c3c;
+	margin-right: 10px;
+}
+.content .title table tr td .edit:hover{
+	background-color: white;
+	color: #2ecc71;
+	border: 1px solid #2ecc71;
+	transition: 0.5s;
+}
+.content .title table tr td .delete:hover{
+	background-color: white;
+	color: #e74c3c;
+	border: 1px solid #e74c3c;
+	transition: 0.5s;
+}
+.login form .sign{
+	display: inline-block;
+	font-size: 17px;
+	margin-left: 60px;
+	font-family: sans-serif;
+}
+.login form .ok{
+	width: 100px;
+	background-color:#0fbcf9;
+	color: white;
+	border:none;
+	border-radius:7px 7px;
+	margin-left: -150px !important; 
+}
+.content .title table tr td .check{
+	background-color: #e67e22;
+	margin-right: 10px;
+	font-family: sans-serif;
+	color:white;
+}
+.content .title table tr td .check:hover{
+	background-color: white;
+	color:  #e67e22;
+	border: 1px solid  #e67e22;
+	transition: 0.5s;
+}
+.header a{
+	margin-left:50px;
+	color:white;
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: white;
+	border-radius: 5px 5px;
+	color:#485460;
+}
+
