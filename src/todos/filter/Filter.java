@@ -31,7 +31,7 @@ public class Filter implements javax.servlet.Filter {
 		User user = (User) ht.getAttribute("user");
 		String url = req.getServletPath();
 		if(user == null || url.endsWith("jsp")) {
-			resp.sendRedirect("login");
+			resp.sendRedirect("/login");
 		}
 		chain.doFilter(request, response);	
 	}

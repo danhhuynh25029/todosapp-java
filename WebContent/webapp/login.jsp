@@ -13,9 +13,9 @@
 <div class="login">
 	<h1>Login Form</h1>
 	<form action="login" method="post">
-		<input type="text" name="username" placeholder="USERNAME"><br>
-		<input type="password" name="password" placeholder="PASSWORD"><br>
-		<input type="submit" name="" value="LOGIN">
+			<input type="text" name="username" placeholder="USERNAME" value="${user.getUsername()}"><br>
+			<input type="password" name="password" placeholder="PASSWORD" value="${user.getPassword()}"><br>
+			<input type="submit" name="" value="LOGIN">
 		<a href="sign" class="sign">SIGN</a>
 	</form>
 </div>
